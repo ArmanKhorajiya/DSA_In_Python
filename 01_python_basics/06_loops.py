@@ -137,10 +137,10 @@
 #         print(i,j);
 
 # Nested Loop with Numbers:
-for i in range(1,4):
-    for j in range(1,4):
-        print(j,end=" ");
-    print();
+# for i in range(1,4):
+#     for j in range(1,4):
+#         print(j,end=" ");
+#     print();
 
 # Nested Loops for Patterns:
 # for i in range(5):
