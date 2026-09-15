@@ -106,3 +106,22 @@
 
 # Q8
 # it will print [1,2,3] and [1,2,3] because they are not independent if changes apply to one then automatically apply to other.
+
+
+# List Slicing:
+# Syntax:
+# arr[start:stop:step]
+
+# arr=[10,20,30,40,50]
+# print(arr[1:4]);
+
+# enumerate():
+# arr=[10,20,30,40]
+# for i, value in enumerate(arr):
+#     print(i,value);
+
+# zip():
+# name=["Arman","Rahul","Jay"];
+# marks=[80,75,90];
+# for name,marks in zip(name,marks):
+#     print(name,marks);
