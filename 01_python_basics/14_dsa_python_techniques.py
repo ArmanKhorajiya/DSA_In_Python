@@ -59,3 +59,17 @@
 
 # Q5
 # all() -> all elements should pass from given condition.
+
+
+# Python List Comprehension
+
+# Normal Loop:
+# number=[]
+# for i in range(5):
+#     number.append(i);
+# print(number)
+
+# Same thing with comprehension
+# number=[i for i in range(5)]
+# print(number)
+
