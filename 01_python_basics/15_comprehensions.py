@@ -61,3 +61,33 @@
 # nums = [1, 2, 3, 4, 5]
 # squares = [i * i for i in nums]
 # print(squares)
+
+# Q4
+# nums = [1, 2, 3, 4, 5]
+# squares = [i + 10 for i in nums]
+# print(squares)
+
+# Q5
+# nums = [1, 2, 3, 4, 5, 6]
+# odd = [i for i in nums if i % 2 == 1]
+# print(odd)
+
+# Q6
+# nums = [1, 2, 3, 4, 5, 6]
+# result = ["Even" if i % 2 == 0 else "Odd" for i in nums]
+# print(result)
+
+# Q7
+# nums = [1, 2, 3, 4, 5]
+# result = {i: i * i for i in nums}
+# print(result)
+
+# Q8
+# nums = [1, 2, 3, 4, 5]
+# result = {i: i * 10 for i in nums}
+# print(result)
+
+# Q9
+# nums = [1, 2, 2, 3, 3, 4, 5]
+# result = {i * i for i in nums}
+# print(result)
