@@ -78,7 +78,7 @@
 # [11,21,12,22]
 
 # Q9
-# {1:"Odd",2:"Even",3:"Odd",4:"Even
+# {1: "Odd", 2: "Even", 3: "Odd", 4: "Even"}
 
 # Q10
 # 16
@@ -86,3 +86,57 @@
 
 # SET:-3
 
+# Q1
+# error because there should be and between two if
+
+# Q2
+# [10,20,6,8]
+
+# Q3
+# {2:4,4:8}
+
+# Q4
+# O
+
+# Q5
+# {4,8}
+
+# Q6
+# [0,3,2]
+
+# Q7
+# nums = [1, 2, 3, 4, 5]
+# result = [x * x for x in nums if x > 0]
+# print(result)
+
+# Q8
+# {1:1,2:4,3:9,4:16}
+
+# Q9
+# heo
+
+# Q10
+# {3:27,4:16,5:125,6:36}
+
+
+# SET:-4
+
+# Q1
+# nums = [4, 7, 2, 7, 9, 2, 5]
+# a = [i for i in nums if i > 4 if i % 2 == 1]
+# print(a)
+
+# Q2
+# word = "programming"
+# a = word[::-1]
+# print(a)
+
+# Q3
+# marks = {"Math": 85, "Python": 92, "DBMS": 78, "DSA": 95}
+# a = {subject: score for subject, score in marks.items() if score >= 80}
+# print(a)
+
+# Q4
+nums = [10, 20, 30, 40, 50]
+maxi=nums[0]
+# a=[i for i in maxi=i nums if i>maxi]
