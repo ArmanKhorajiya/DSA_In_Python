@@ -164,9 +164,23 @@
 # print(even, odd)
 
 # Q7
-nums = [4, 2, 4, 7, 2, 9, 7, 1]
-a = []
-for i in nums:
-    if i not in a:
-        a.append(i)
-print(a)
+# nums = [4, 2, 4, 7, 2, 9, 7, 1]
+# a = []
+# for i in nums:
+#     if i not in a:
+#         a.append(i)
+# print(a)
+
+# Q8
+# nums = [10, 5, 20, 8, 20, 15]
+# a = 0
+# b = 0
+# for i in nums:
+#     if i > a:
+#         b = a
+#         a = i
+#     elif i > b and i != a:
+#         b = i
+# print(b)
+
+# Q9
