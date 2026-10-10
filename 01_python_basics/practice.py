@@ -137,6 +137,36 @@
 # print(a)
 
 # Q4
-nums = [10, 20, 30, 40, 50]
-maxi=nums[0]
-# a=[i for i in maxi=i nums if i>maxi]
+# nums = [10, 20, 30, 40, 50]
+# maxi = nums[0]
+# for i in nums:
+#     if i > maxi:
+#         maxi = i
+# print(maxi)
+
+# Q5
+# nums = [18, 5, 27, 3, 12]
+# mini = nums[0]
+# for i in nums:
+#     if i < mini:
+#         mini = i
+# print(mini)
+
+# Q6
+# nums = [12, 7, 4, 9, 16, 3, 8]
+# even = 0
+# odd = 0
+# for i in nums:
+#     if i % 2 == 0:
+#         even += 1
+#     else:
+#         odd += 1
+# print(even, odd)
+
+# Q7
+nums = [4, 2, 4, 7, 2, 9, 7, 1]
+a = []
+for i in nums:
+    if i not in a:
+        a.append(i)
+print(a)
