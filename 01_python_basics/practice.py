@@ -186,7 +186,6 @@
 # Q9
 
 
-
 # Practice
 
 # 1
@@ -198,3 +197,16 @@
 #   i+=1
 # print(sum)
 
+# arr=[1,2,3,4,5,6]
+# maxi=arr[0]
+# for i in arr:
+#     if i >maxi:
+#         maxi=i;
+# print(maxi)
+
+arr = [1, 2, 3, 4, -1, -9]
+mini = arr[0]
+for i in arr:
+    if i < mini:
+        mini = i
+print(mini)
