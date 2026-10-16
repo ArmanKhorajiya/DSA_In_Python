@@ -184,9 +184,17 @@
 # print(b)
 
 # Q9
-n=5
-sum=0
-i=1
-while(i<n):
-  sum+=i
-print(sum)
+
+
+
+# Practice
+
+# 1
+# n=5
+# sum=0
+# i=1
+# while(i<=n):
+#   sum+=i
+#   i+=1
+# print(sum)
+
