@@ -204,9 +204,13 @@
 #         maxi=i;
 # print(maxi)
 
-arr = [1, 2, 3, 4, -1, -9]
-mini = arr[0]
-for i in arr:
-    if i < mini:
-        mini = i
-print(mini)
+# arr = [1, 2, 3, 4, -1, -9]
+# mini = arr[0]
+# for i in arr:
+#     if i < mini:
+#         mini = i
+# print(mini)
+
+arr = [5, -1, -8, 13, -2, 7, -6, 0, 37]
+a = []
+print(arr)
