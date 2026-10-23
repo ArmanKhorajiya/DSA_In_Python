@@ -211,10 +211,22 @@
 #         mini = i
 # print(mini)
 
-arr = [5, -1, -8, 13, -2, 7, -6, 0, 37]
-maximum_sum = arr[0] + arr[1]
-for i in range(1, len(arr) - 1):
-    current_sum = arr[i] + arr[i + 1]
-    if current_sum > maximum_sum:
-        maximum_sum = current_sum
-print(maximum_sum)
+# arr = [5, -1, -8, 13, -2, 7, -6, 0, 37]
+# maximum_sum = arr[0] + arr[1]
+# for i in range(1, len(arr) - 1):
+#     current_sum = arr[i] + arr[i + 1]
+#     if current_sum > maximum_sum:
+#         maximum_sum = current_sum
+# print(maximum_sum)
+
+# Practice:
+# Q1
+nums = [0, 4, 0, 2, 7, 0, 3, 2]
+a=[]
+for i in nums:
+    if i ==0:
+        a.append(i)
+        nums.pop(i)
+print(nums,a)
+    
+    
