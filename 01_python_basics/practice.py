@@ -221,12 +221,25 @@
 
 # Practice:
 # Q1
-nums = [0, 4, 0, 2, 7, 0, 3, 2]
-a=[]
-for i in nums:
-    if i ==0:
-        a.append(i)
-        nums.pop(i)
-print(nums,a)
-    
-    
+# nums = [0, 4, 0, 2, 7, 0, 3, 2]
+# non_zero = []
+# zero = []
+# for i in nums:
+#     if i == 0:
+#         zero.append(i)
+#     else:
+#         non_zero.append(i)
+# result = non_zero + zero
+# print(result)
+
+# nums = [0, 4, 0, 2, 7, 0, 3, 2]
+# result = []
+# for x in nums:
+#     if x != 0:
+#         result.append(x)
+#         pass
+# zero_count = nums.count(0)
+# result.extend([0] * zero_count)
+# print(result)
+
+# Q2
